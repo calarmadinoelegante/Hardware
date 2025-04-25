@@ -14,16 +14,19 @@
       </div>
       <h1 class="titulo">¿Cual es you problem?</h1>
       <div>
-        <input class="topnav" placeholder="pone tu problema aca">
+        <form action="/buscar" method="get">
+          <input type="text" name="q" placeholder="Buscar...">
+          <button type="submit">Buscar</button>
+        </form>
       </div>
       <br>
     <img src="img/images.jpg" width="400">
     <form class="formulario" action="" method="post">
-        <label for="nombre">Nombre</label>
+        <label class="letras" for="nombre">Nombre</label>
         <input class="formulario" type="text" id="nombre" placeholder="tu nombre"/>
         <br>
         <br>
-        <label for="apellido">Apellido</label>
+        <label class="letras" for="apellido">Apellido</label>
         <input class="formulario" type="text" id="apellido" placeholder="tu apelldio"/>
         <br>
         <br>
@@ -31,6 +34,17 @@
         cols="50" rows="4"></textarea>
     </form>
     <button type="button">Enviar</button>
-    <h1>hola word</h1>
+
+    <h2>Ejemplo de barra desplazadora</h2>
+    <div class="scroll-box">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+      <p>Donec vel magna vitae ligula faucibus blandit.</p>
+      <p>Vivamus fermentum, ipsum sit amet feugiat sodales, justo neque blandit neque, nec convallis risus augue sed nulla.</p>
+      <p>Curabitur commodo mi at neque faucibus, nec laoreet justo malesuada.</p>
+      <p>Integer dapibus, purus in efficitur laoreet, purus velit dictum est, sit amet suscipit risus justo at mauris.</p>
+      <p>Aliquam erat volutpat. Praesent ac varius turpis.</p>
+      <p>Sed ullamcorper ante at est vehicula, nec dignissim risus pretium.</p>
+    </div>
+
 </body>
 </html>

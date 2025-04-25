@@ -15,7 +15,7 @@ body {
   .topnav a {
     float: left;
     display: block;
-    color: black;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,12 +24,12 @@ body {
   
   .topnav a:hover {
     background-color: #aca7a7;
-    color: black;
+    color: rgb(255, 255, 255);
   }
   
   .topnav a.active {
-    background-color: #28a761;
-    color: rgb(14, 54, 16);
+    background-color: #283ebe;
+    color: rgb(255, 255, 255);
   }
   
   .topnav .search-container {
@@ -57,4 +57,22 @@ body {
   .topnav .search-container button:hover {
     background: #ccc;
   }
- 
+
+ body {
+  background-image: url(img/fondo.jpg);
+}
+
+.titulo {
+color: hwb(0 100% 0%);
+}
+.letras{
+  color: hwb(0 100% 0%)
+}
+
+.scroll-box {
+  width: 300px;
+  height: 200px;
+  overflow-y: scroll; /* barra vertical */
+  border: 1px solid #ccc;
+  padding: 10px;
+}
